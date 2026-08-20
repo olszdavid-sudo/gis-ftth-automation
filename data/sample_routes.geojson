@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_ftth_routes",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "FTTH-001",
+        "segment_type": "distribution",
+        "status": "existing",
+        "cable_type": "48F"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.6466, 54.3520],
+          [18.6480, 54.3527],
+          [18.6494, 54.3533]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "FTTH-002",
+        "segment_type": "distribution",
+        "status": "planned",
+        "cable_type": "72F"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.6494, 54.3533],
+          [18.6508, 54.3540],
+          [18.6520, 54.3548]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "FTTH-003",
+        "segment_type": "access",
+        "status": "existing",
+        "cable_type": "24F"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.6480, 54.3527],
+          [18.6474, 54.3517],
+          [18.6469, 54.3508]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "FTTH-004",
+        "segment_type": "access",
+        "status": "planned",
+        "cable_type": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.6508, 54.3540],
+          [18.6518, 54.3532],
+          [18.6530, 54.3526]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "FTTH-005",
+        "segment_type": "backbone",
+        "status": "existing",
+        "cable_type": "144F"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.6469, 54.3508],
+          [18.6490, 54.3504],
+          [18.6512, 54.3501],
+          [18.6532, 54.3503]
+        ]
+      }
+    }
+  ]
+}
